@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -bundle -Wl,-headerpad_max_install_names -o TBFF_supernova.scx CMakeFiles/TBFF_supernova.dir/plugins/TBFF/TBFF.cpp.o

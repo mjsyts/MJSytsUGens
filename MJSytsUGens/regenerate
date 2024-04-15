@@ -1,0 +1,1 @@
+python3 /Users/josiahsytsma/supercollider/tools/cmake_gen/generate_server_plugin_cmake.py -P "TBFF" -p "plugins/TBFF" -a "M. Josiah Sytsma"

@@ -1,0 +1,26 @@
+class:: TBFF
+summary:: A TB-303 filter clone
+related:: TODO
+categories:: UGens>TODO
+
+description::
+
+A TB-303 filter clone
+
+
+classmethods::
+
+method::ar, kr
+
+argument::TODO
+
+argument::TODO
+
+
+examples::
+
+code::
+
+{ TBFF.ar(/* TODO */) }.play
+
+::
