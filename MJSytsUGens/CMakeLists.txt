@@ -70,6 +70,7 @@ set(TBFF_cpp_files
     plugins/TBFF/Oversampling.h
     plugins/TBFF/AAFilter.h
     plugins/TBFF/IIR.h
+    plugins/TBFF/PadeApprox.h
 )
 set(TBFF_sc_files
     plugins/TBFF/TBFF.sc
