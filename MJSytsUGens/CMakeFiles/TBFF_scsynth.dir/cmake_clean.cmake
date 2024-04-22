@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.o"
+  "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.o.d"
   "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o"
   "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o.d"
   "TBFF_scsynth.pdb"

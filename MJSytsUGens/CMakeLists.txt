@@ -70,7 +70,8 @@ set(TBFF_cpp_files
     plugins/TBFF/Oversampling.h
     plugins/TBFF/AAFilter.h
     plugins/TBFF/IIR.h
-    plugins/TBFF/PadeApprox.h
+    plugins/TBFF/MathApprox.h
+    plugins/TBFF/Plugin.cpp
 )
 set(TBFF_sc_files
     plugins/TBFF/TBFF.sc
@@ -86,9 +87,6 @@ sc_add_server_plugin(
     "${TBFF_sc_files}"
     "${TBFF_schelp_files}"
 )
-
-# End target TBFF
-####################################################################################################
 
 ####################################################################################################
 # END PLUGIN TARGET DEFINITION

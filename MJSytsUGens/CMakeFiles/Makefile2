@@ -83,12 +83,12 @@ clean: CMakeFiles/TBFF_supernova.dir/clean
 CMakeFiles/TBFF_scsynth.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_scsynth.dir/build.make CMakeFiles/TBFF_scsynth.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_scsynth.dir/build.make CMakeFiles/TBFF_scsynth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles --progress-num=1,2 "Built target TBFF_scsynth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles --progress-num=1,2,3 "Built target TBFF_scsynth"
 .PHONY : CMakeFiles/TBFF_scsynth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TBFF_scsynth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TBFF_scsynth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles 0
 .PHONY : CMakeFiles/TBFF_scsynth.dir/rule
@@ -109,12 +109,12 @@ CMakeFiles/TBFF_scsynth.dir/clean:
 CMakeFiles/TBFF_supernova.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_supernova.dir/build.make CMakeFiles/TBFF_supernova.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_supernova.dir/build.make CMakeFiles/TBFF_supernova.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles --progress-num=3,4 "Built target TBFF_supernova"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles --progress-num=4,5,6 "Built target TBFF_supernova"
 .PHONY : CMakeFiles/TBFF_supernova.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TBFF_supernova.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TBFF_supernova.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/josiahsytsma/TBFF/MJSytsUGens/CMakeFiles 0
 .PHONY : CMakeFiles/TBFF_supernova.dir/rule

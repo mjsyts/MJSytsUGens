@@ -891,4 +891,5 @@ CMakeFiles/TBFF_supernova.dir/plugins/TBFF/TBFF.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/MathApprox.h

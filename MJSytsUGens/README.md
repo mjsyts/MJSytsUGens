@@ -2,7 +2,7 @@
 
 Author: M. Josiah Sytsma
 
-A TB-303 filter clone based on Dominique Wurtz's VA diode ladder filter. Oversampling from Jatin Chowdhury.
+A TB-303 filter clone
 
 ### Requirements
 

@@ -1,29 +1,33 @@
+#pragma once
+
 #include "SC_PlugIn.hpp"
 #include "Oversampling.h"
-#include "PadeApprox.h"
+#include "MathApprox.h"
 
 class TBFF : public SCUnit {
 private:
-    enum Inputs { SIG_IN, FREQ_IN, RQ_IN, NUM_INS };
+    enum Inputs { SIG_IN, FREQ_IN, RES_IN, NUM_INS };
     
-    const float omega;
+    float k, A;
     
-    float m_Freq, m_Res;
-    
-    //integrator states
+    //integrators and feedback hpf
     float z0, z1, z2, z3, z4;
     
-    float* osBuffer;
+    float mPrevFreq, mPrevQ;
+    float mHpFreq;
     
-    // Calc functions
-    void next(int inNumSamples);
+    //hpf coefficients
+    float ah, bh;
     
-    //reset integrator states
+    float* osBuf;
+    
     void reset();
-    
-    float processSample(const float& inSample, float freq, float res);
+    void calcHpCoeffs(float freq);
+    float prewarpFc(float x);
+    void next(int nSamples);
+    float processSample(const float x, float freq, float q);
 public:
     TBFF();
-    Oversampling<2> oversample; //fixed 2x oversample
+    Oversampling<2> oversample;
     ~TBFF(){}; //default
 };

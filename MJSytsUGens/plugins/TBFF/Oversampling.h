@@ -60,7 +60,6 @@ public:
         float y = 0.0f;
         for(int k = 0; k < ratio; k++)
             y = aaFilter.process(osBuffer[k]);
-
         return y;
     }
 

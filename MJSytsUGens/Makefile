@@ -187,6 +187,33 @@ TBFF_supernova/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_supernova.dir/build.make CMakeFiles/TBFF_supernova.dir/build
 .PHONY : TBFF_supernova/fast
 
+plugins/TBFF/Plugin.o: plugins/TBFF/Plugin.cpp.o
+.PHONY : plugins/TBFF/Plugin.o
+
+# target to build an object file
+plugins/TBFF/Plugin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_scsynth.dir/build.make CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_supernova.dir/build.make CMakeFiles/TBFF_supernova.dir/plugins/TBFF/Plugin.cpp.o
+.PHONY : plugins/TBFF/Plugin.cpp.o
+
+plugins/TBFF/Plugin.i: plugins/TBFF/Plugin.cpp.i
+.PHONY : plugins/TBFF/Plugin.i
+
+# target to preprocess a source file
+plugins/TBFF/Plugin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_scsynth.dir/build.make CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_supernova.dir/build.make CMakeFiles/TBFF_supernova.dir/plugins/TBFF/Plugin.cpp.i
+.PHONY : plugins/TBFF/Plugin.cpp.i
+
+plugins/TBFF/Plugin.s: plugins/TBFF/Plugin.cpp.s
+.PHONY : plugins/TBFF/Plugin.s
+
+# target to generate assembly for a file
+plugins/TBFF/Plugin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_scsynth.dir/build.make CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBFF_supernova.dir/build.make CMakeFiles/TBFF_supernova.dir/plugins/TBFF/Plugin.cpp.s
+.PHONY : plugins/TBFF/Plugin.cpp.s
+
 plugins/TBFF/TBFF.o: plugins/TBFF/TBFF.cpp.o
 .PHONY : plugins/TBFF/TBFF.o
 
@@ -228,6 +255,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TBFF_scsynth"
 	@echo "... TBFF_supernova"
+	@echo "... plugins/TBFF/Plugin.o"
+	@echo "... plugins/TBFF/Plugin.i"
+	@echo "... plugins/TBFF/Plugin.s"
 	@echo "... plugins/TBFF/TBFF.o"
 	@echo "... plugins/TBFF/TBFF.i"
 	@echo "... plugins/TBFF/TBFF.s"

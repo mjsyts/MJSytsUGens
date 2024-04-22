@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/Plugin.cpp" "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.o" "gcc" "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.o.d"
   "/Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/TBFF.cpp" "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o" "gcc" "CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o.d"
   )
 

@@ -1,5 +1,5 @@
-CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o: \
-  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/TBFF.cpp \
+CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/Plugin.cpp.o: \
+  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/Plugin.cpp \
   /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/TBFF.h \
   /Users/josiahsytsma/supercollider/include/plugin_interface/SC_PlugIn.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert \

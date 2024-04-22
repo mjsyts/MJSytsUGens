@@ -1,5 +1,5 @@
-CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o: \
-  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/TBFF.cpp \
+CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TLadder.cpp.o: \
+  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/TLadder.cpp \
   /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/TBFF.h \
   /Users/josiahsytsma/supercollider/include/plugin_interface/SC_PlugIn.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cassert \
@@ -892,4 +892,4 @@ CMakeFiles/TBFF_scsynth.dir/plugins/TBFF/TBFF.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/MathApprox.h
+  /Users/josiahsytsma/TBFF/MJSytsUGens/plugins/TBFF/PadeApprox.h
